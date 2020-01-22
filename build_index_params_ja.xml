@@ -1,0 +1,31 @@
+<parameters>
+  <index>indexes/medline-ja2017-index</index>
+  <memory>1G</memory>
+  <corpus>
+    <path>data/out-text</path>
+    <class>trectext</class>
+  </corpus>
+  <field>
+    <name>text</name>
+  </field>
+  <field>
+    <name>title</name>
+  </field>
+  <field>
+    <name>keywords</name>
+  </field>
+  <field>
+    <name>journal</name>
+  </field>
+  <field>
+    <name>authors</name>
+  </field>
+  <metadata>
+    <field>keywords</field>
+    <forward>keywords</forward>
+    <backward>keywords</backward>
+  </metadata>
+  <stemmer>
+    <name>Krovetz</name>
+  </stemmer>
+</parameters>
